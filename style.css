@@ -1,0 +1,143 @@
+body {
+    background-color: black;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    margin: 0;
+}
+
+.profile {
+    background-color: #140202;
+    /* padding: 15px; */
+    color: #fff;
+    width: auto;
+}
+
+.profile__imagecard {
+    padding: 10px;
+    width: auto;
+    display: inline-block;
+}
+
+.profile__desc {
+    display: inline-block;
+
+}
+
+.profile__image {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.profile__name {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 50px;
+    font-weight: bold;}
+
+.profile__name-link{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.profile__title {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.profile__contact-link {
+    font-size: 16px;
+    margin-left: 20px;
+    border: 1px solid white;
+    background-color: #73ff00;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.interests__image {
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+}
+
+.about,
+.interests,
+.projects {
+    background-color: #fff;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.about__title,
+.interests__title,
+.projects__title {
+    color: rgb(168, 1, 85);
+}
+
+.interests__desc li,
+.projects__desc li {
+    list-style: none;
+}
+
+.contact-form{
+    margin: 10px;
+    color: black;
+    padding: 20px;
+    padding-left: 300px;
+    margin-top: 50px;
+    background-color: #fff;
+    
+}
+
+.contact-form__input,.contact-form__textarea,.contact-form__submit{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.contact-form__input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+.contact-form__textarea{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+.contact-form__submit{
+    background-color:black;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+.footer {
+    color: #fff;
+    margin: 20px;
+    text-align: center;
+}
+
+
+.footer__link {
+    margin: 30px;
+    padding: 5px 10px;
+    font-size: 16px;
+    /* border: 1px solid white; */
+    color: #00d5ff;
+    /* text-decoration: none; */
+    border-radius: 5px;
+}
+
+.footer__rights {
+    padding-top: 25px;
+    text-align: center;
+}
